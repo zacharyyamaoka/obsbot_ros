@@ -8,7 +8,7 @@
 #include <vector>
 #include <list>
 
-#include "util/comm.hpp"
+#include "comm.hpp"
 
 #ifdef __APPLE__
 
@@ -905,7 +905,7 @@ public:
      * @return the version of the UVC specification which the device implements (as a binary-coded decimal value, e.g.
      *         0x0210 = 2.10).
      */
-    UInt16 uvcVersion();
+    uint16_t uvcVersion();
 
     /**
      * @brief  Get the UVC device path

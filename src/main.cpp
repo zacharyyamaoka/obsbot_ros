@@ -2,8 +2,10 @@
 #include <vector>
 #include <thread>
 #include <codecvt>
+#include <algorithm>
+#include <cstring>
 
-#include <dev/devs.hpp>
+#include <obsbot_ros/devs.hpp>
 
 using namespace std;
 

@@ -5,7 +5,7 @@
 #include <list>
 #include <memory>
 
-#include "util/comm.hpp"
+#include "comm.hpp"
 #include "dev.hpp"
 
 
